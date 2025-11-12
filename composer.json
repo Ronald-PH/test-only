@@ -1,0 +1,14 @@
+{
+    "name": "ronald-ph/sample-meta",
+    "description": "A sample Composer package that contains only composer.json and no PHP code.",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronald Soberano",
+            "email": "ronsoberano02@gmail.com"
+        }
+    ],
+    "require": {}
+}
