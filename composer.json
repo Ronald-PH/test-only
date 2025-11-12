@@ -1,14 +1,14 @@
 {
     "name": "ronald-ph/test-only-v2",
-    "description": "A sample Composer package that contains only composer.json and no PHP code.",
+    "description": "Renamed version of test-only package",
     "version": "1.0.0",
     "type": "metapackage",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Ronald Soberano",
-            "email": "ronsoberano02@gmail.com"
-        }
+        { "name": "Ronald Soberano", "email": "ronsoberano02@gmail.com" }
     ],
-    "require": {}
+    "require": {},
+    "replace": {
+        "ronald-ph/test-only": "self.version"
+    }
 }
